@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stayle1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <script src="/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <link rel="stylesheet" href="/responsive1.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Bunly Online Shop</title>
+</head>
+<body>
+    <div class="header1">
+        <div class="header2">
+            <nav>
+                <div class="navbar">
+                  <div class="container nav-container">
+                      <input class="checkbox" type="checkbox" name="" id="" />
+                      <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                      </div>  
+                
+                    <div class="menu-items">
+                      <div id='linkWrapper' class="linkWrapper">
+                        <a href='#' id='div1' class="nav">Categories &nbsp; |</a>
+                        <a href='#' id='div2' class="nav">&nbsp;&nbsp;Main Menu</a>
+                      </div>
+                      <div class='div1 dot11' style="display: block;">
+                        <div id="myDropdown1" class="dropdown-content cate3">
+                          <div class="small_cate">
+                            <a href=""><i class="fa-solid fa-mobile"></i></a>
+                            <h1>Mobile & Laptops</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i style="font-size: 56px;" class="fa-solid fa-gamepad"></i></a>
+                            <h1>Gaming Entertainment</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i style="font-size: 43px;" class="fa-solid fa-images"></i></a>
+                            <h1>Image & Video</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i style="font-size: 43px;" class="fa-solid fa-truck"></i></a>
+                            <h1>Vehicles</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i style="font-size: 42px;" class="fa-solid fa-couch"></i></a>
+                            <h1>Furnitures</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i style="font-size: 45px;" class="fa-solid fa-volleyball"></i></a>
+                            <h1>Sport</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i style="font-size: 43px;" class="fa-solid fa-mug-hot"></i></a>
+                            <h1>Food & Drinks</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i style="font-size: 43px;" class="fa-solid fa-shirt"></i></a>
+                            <h1>Fashion Accessories</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i class="fa-solid fa-toilet-portable"></i></a>
+                            <h1>Toilet & Sanitation</h1>
+                          </div>
+                          <div class="small_cate">
+                            <a href=""><i style="font-size: 43px;" class="fa-solid fa-baby-carriage"></i></a>
+                            <h1>Baby Items</h1>
+                          </div>
+                        </div>
+                      </div>
+                        <div class='div2 dot11' style="display: none;">
+                            <ul class="ul_form">
+                                <li><a href="">Home<i style="margin-left: 215px;" class="fa-solid fa-chevron-right"></i></a></li>
+                                <li><a href="">shop<i style="margin-left: 215px;" class="fa-solid fa-chevron-right"></i></a></li>
+                                <li><a href="">pages<i style="margin-left: 210px;" class="fa-solid fa-chevron-right"></i></a></li>
+                                <li><a href="">about<i style="margin-left: 210px;" class="fa-solid fa-chevron-right"></i></a></li>
+                                <li><a href="">blogs<i style="margin-left: 210px;" class="fa-solid fa-chevron-right"></i></a></li>
+                                <li><a href="">contact<i style="margin-left: 200px;" class="fa-solid fa-chevron-right"></i></a></li>
+                            </ul>
+                      </div>
+                    </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            <div class="box_big">
+                <img src="Img/logo_shop-removebg-preview.png" alt="">
+                <div class="box_search">
+                    <input type="text" placeholder="Search Product...">
+                    <button>Search</button>
+                </div>
+                <div class="box_icon">
+                    <a href=""><i class="fa-solid fa-arrows-rotate"></i></a>
+                    <a href="" class="heart1"><i class="fa-regular fa-heart"></i></a>
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+
+            <a href="#" class="logo"></a>
+        
+              <div class="box">
+                <div class="cart-count">0</div>
+                <i  id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+              </div>
+        
+              <div class="cart">
+                <div class="cart-title">Cart Items</div>
+                <div class="cart-content">
+        
+                  <div class="cart-box">
+                    
+                    <img src="images/97.jpg" class="cart-img">
+                    <div class="detail-box">
+                      <div class="cart-food-title">Special Dosai</div>
+                      <div class="price-box">
+                        <div class="cart-price">Rs.72</div>
+                         <div class="cart-amt">Rs.72</div>
+                     </div>
+                      <input type="number" value="1" class="cart-quantity">
+                    </div>
+                       <i id="cart-remove" class="fa-solid fa-trash"></i>
+                  </div>
+        
+                  <div class="cart-box">
+                    <img src="images/97.jpg" class="cart-img">
+                    <div class="detail-box">
+                      <div class="cart-food-title">Special Dosai</div>
+                      <div class="price-box">
+                        <div class="cart-price">Rs.72</div>
+                         <div class="cart-amt">Rs.72</div>
+                     </div>
+                      <input type="number" value="1" class="cart-quantity">
+                    </div>
+                         <i id="cart-remove" class="fa-solid fa-trash"></i>
+                    <i  class="cart-remove" class="fa-solid fa-trash"></i>
+                  </div>
+                
+                </div>
+                
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+            
+                <button class="btn-buy">Place Order</button>
+                <i  id="cart-close" class="fa-solid fa-xmark"></i>
+        
+              </div>
+
+              
+        </div>
+    </div>
+
+    <!-- navbar menu -->
+    <div class="navbar1">
+        <div class="navbar2">
+            <!--side bar menu-->
+              <!--side bar menu-->
+              
+              <div id="mySidenav" class="sidenav">
+                <button onclick="toggleNav()" class="dropbtn"><i class="fa-solid fa-bars"></i>All Categories <i class="fa-solid fa-angle-down"></i></button>
+      
+                <div id="myDropdown" class="dropdown-content cate2">
+                    <div class="small_cate">
+                        <a href=""><i class="fa-solid fa-mobile"></i></a>
+                        <h1>Mobile & Laptops</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i style="font-size: 10px;" class="fa-solid fa-gamepad"></i></a>
+                        <h1>Gaming Entertainment</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i style="font-size: 13px;" class="fa-solid fa-images"></i></a>
+                        <h1>Image & Video</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i style="font-size: 13px;" class="fa-solid fa-truck"></i></a>
+                        <h1>Vehicles</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i style="font-size: 12px;" class="fa-solid fa-couch"></i></a>
+                        <h1>Furnitures</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i style="font-size: 15px;" class="fa-solid fa-volleyball"></i></a>
+                        <h1>Sport</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i style="font-size: 13px;" class="fa-solid fa-mug-hot"></i></a>
+                        <h1>Food & Drinks</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i style="font-size: 13px;" class="fa-solid fa-shirt"></i></a>
+                        <h1>Fashion Accessories</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i class="fa-solid fa-toilet-portable"></i></a>
+                        <h1>Toilet & Sanitation</h1>
+                    </div>
+                    <div class="small_cate">
+                        <a href=""><i style="font-size: 13px;" class="fa-solid fa-baby-carriage"></i></a>
+                        <h1>Baby Items</h1>
+                    </div>
+                </div>
+              </div>
+       
+            <!-- -------------------------- -->
+            <div class="navbar_menu">
+                <div class="dropdown1">
+                    <div class="dropbtn1">Dropdown
+                        <a href=""><i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                    <div class="dropdown_content1">
+                      <a href="#">Home one</a>
+                      <a href="#">Home two</a>
+                      <a href="#">Home three</a>
+                    </div>
+                </div>
+
+                <div class="dropdown2">
+                    <div class="dropbtn2">Shop
+                        <a href=""><i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                    <div class="dropdown_content2">
+                        <div class="form1">
+                            <a href="#" style="text-decoration:none;color: black;font-weight: 700;">SHOP LIST</a>
+                            <a href="#">Shop Sidebar</a>
+                            <a href="#">Shop Fullwidth</a>
+                            <a href="#">Shop Category Icon</a>
+                            <a href="#">Shop Category Icon</a>
+                            <a href="#">Shop List View</a>
+                        </div>
+                        <div class="form1" >
+                            <a href="#" style="text-decoration:none;color: black;font-weight: 700;">PRODUCT LAYOUTS</a>
+                            <a href="#">Horizonral Thumbnail</a>
+                            <a href="#">Vertical Thumbnail</a>
+                            <a href="#">Gallery Thumbnail</a>
+                            <a href="#">Sticky Summary</a>
+                        </div>
+                        <div class="form1">
+                            <a href="#" style="text-decoration:none;color: black;font-weight: 700;">POLULAR CATEGORY</a>
+                            <a href="#">Phone & Tablet</a>
+                            <a href="#">Gaming & Sports</a>
+                            <a href="#">Home Appliance</a>
+                            <a href="#">Fashion Clothes</a>
+                        </div>
+                        <img src="/image/mega-menu-thumb.jpg" alt="">
+                     
+                    </div>
+                </div>
+
+                <div class="dropdown3">
+                    <div class="dropbtn3">Pages
+                        <a href=""><i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                    <div class="dropdown_content3">
+                      <a href="#">Privacy Policy</a>
+                      <a href="#">Terms and Conditions</a>
+                      <a href="#">FAQ</a>
+                      <a href="#">Shop Category Icon</a>
+                      <a href="#">Shop List View</a>
+                    </div>
+                </div>
+                <div class="dropdown4">
+                    <div class="dropbtn4">About</div>
+                </div>
+                <div class="dropdown4">
+                    <div class="dropbtn4">Blog</div>
+                </div>
+                <div class="dropdown4">
+                    <div class="dropbtn4">Contact</div>
+                </div>
+                <button class="btn_seller">Become a Seller <a href=""><i class="fa-solid fa-angle-right"></i></a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="container2">
+            <div class="box_poster">
+                <img  data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine" class="pic1" src="Img/poster1.png" alt="">
+                <img data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500" class="pic2" src="Img/poster2.png" alt="">
+                <img data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500" class="pic2" src="Img/poster3.png" alt="">
+            </div>
+        </div>
+
+         <!-- box promote poster -->
+         <div class="box_promote" data-aos="fade-up">
+            <div class="promote1">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <h1>Free Shipping</h1>
+                <h2>When ordering over $100</h2>
+            </div>
+            <div class="promote1">
+                <a href=""><i class="fa-solid fa-rotate-right"></i></a>
+                <h1>Free Return</h1>
+                <h2>Get Return within 30 days</h2>
+            </div>
+            <div class="promote1">
+                <a href=""><i class="fa-solid fa-unlock-keyhole"></i></a>
+                <h1>Secure Payment</h1>
+                <h2>100% Secure Online Payment</h2>
+            </div>
+            <div class="promote1">
+                <a href=""><i class="fa-solid fa-trophy"></i></a>
+                <h1>Best Quality</h1>
+                <h2>Original Product Guarenteed</h2>
+            </div>
+         </div>
+
+        <!-- Gamer World -->
+        <div class="box_shop1"  data-aos="fade-up">
+           <div class="featured">
+              <h1>Gamer World</h1>
+              <a href="">View More<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="poster_item1 food-box">
+            <img src="Img/section-category-1.jpg" alt="">
+            <ul class="form1">
+              <li><a style="text-decoration: none;color: black;" href="">Mobile & Tablet</a></li>
+              <li><a href="">Xioami</a></li>
+              <li><a href="">Apple</a></li>
+              <li><a href="">Google</a></li>
+              <li><a href="">Samsung</a></li>
+              <li><a style="text-decoration: none;color: black;" href="">Shop Now <i class="fa-solid fa-angle-right"></i></a></li>
+            </ul>
+          </div>
+
+          
+          <div class="food-box " >
+            <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+            <div style="opacity: 0;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic1.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Xoggle aute et pariatur adipisicing nostrud et....</h2>
+            <h3><span>$27.90 </span><h4 class="food-price">$18.73</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box " >
+            <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+            <div style="opacity: 0;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic2.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Geeky ipsum esse repreh est consequat</h2>
+            <h3><span>$30.90 </span><h4 class="food-price">$19.53</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box " id="food_box1">
+            <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+            <div style="opacity: 0;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>  
+            <img src="Img/pic3.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Conjurica ea magna eiusmod esse cupt anim...</h2>
+            <h3><span>$25.90 </span><h4 class="food-price">$18.03</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+         
+        </div>
+
+        <!-- -------------------------------- -->
+        <div class="Shop_Brand"  data-aos="fade-up">
+            <div class="Brand">
+                <h1>Shop by Brand</h1>
+            </div>
+            <div class="Brand_name">
+                <img src="Img/brand-1.webp" alt="">
+                <img src="Img/brand-2.webp" alt="">
+                <img src="Img/brand-3.webp" alt="">
+                <img src="Img/brand-4.webp" alt="">
+                <img src="Img/brand-5.webp" alt="">
+                <img src="Img/brand-6.webp" alt="">
+                <img src="Img/brand-7.webp" alt="">
+                <img src="Img/brand-8.webp" alt="">
+                <img src="Img/brand-9.webp" alt="">
+                <img src="Img/brand-10.webp" alt="">
+                <img src="Img/brand-11.webp" alt="">
+                <img src="Img/brand-12.webp" alt="">
+            </div>
+        </div>
+
+        <!-- ---------------------------------- -->
+        <div class="Flash_Sale">
+            <div class="flash1" data-aos="fade-right">
+                <div class="info">
+                    <div class="day" id="timeday"></div>
+                    <div class="hour" id="timehour"></div>
+                    <div class="minute" id="timeminute"></div>
+                    <div class="secound" id="timesecond"></div>
+                    <h1>Days</h1>
+                    <h2>Hours</h2>
+                    <h3>Minutes</h3>
+                    <h4>Seconds</h4>
+                </div>
+                <h1 class="text1">WOO! Flash Sale</h1>
+                <div class="box_shop_now">
+                    <h1>Shop Now <i class="fa-solid fa-angle-right"></i></h1><br>
+                    <img class="pic_of_bg" src="Img/pic_of_bg1-removebg-preview.png" alt="">
+                </div>
+                
+            </div>
+            <div class="flash2" data-aos="fade-left">
+                <h1>MOBILE APP VERSION</h1>
+                <h2>Get Our <span>Mobile App</span> <br>
+                    It's Make easy for you life !</h2>
+                <img class="pic_small1" src="Img/get-it-on-google-play.png" alt="">
+                <img class="pic_small2" src="Img/apple-store.webp" alt="">
+                <img class="pic_small3" src="Img/app-screen.webp" alt="">
+            </div>
+        </div>
+
+        <!-- Top Selling Products -->
+        <div class="top_selling">
+            <div class="featured">
+                <h1>Top Selling Products</h1>
+                <a class="text_title" href="">View More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="food-box " id="box_shop2" data-aos="fade-left">
+                <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+                <div style="opacity: 0;" class="box_Percentage">
+                    <div class="p1"></div>
+                </div>
+                <img src="Img/pic4.jpg" alt="" id="pic4" class="food-img">
+            
+                <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+                <h2 class="food-title">Senmei ipsum dolore eiusmod dolor officia do nisi</h2><br>
+                <h3 class="title_price4" style="display: none;"><span >$25.90 </span><h4 style="margin-left: -100px; display: none;" class="food-price">$18.03</h4></h3>
+                <div class="box_icon">
+                    <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                    <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+                </div>
+                <button class="add-cart">Add To Cart</button>
+              </div>
+
+
+              <div class="food-box " id="box_shop3" data-aos="fade-left">
+                <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+                <div style="opacity: 0;" class="box_Percentage">
+                    <div class="p1"></div>
+                </div>
+                <img src="Img/pic5.jpg" alt="" id="pic4" class="food-img">
+            
+                <h1>&#9733;&#9733;&#9733;&#9733;</h1>
+                <h2 class="food-title">
+                    Canopoly duis voluptate dolor sunt sit adipisicing in</h2><br>
+                <h3 class="title_price4" style="display: none;"><span >$25.90 </span><h4 style="margin-left: -100px; display: none;" class="food-price">$18.03</h4></h3>
+                <div class="box_icon">
+                    <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                    <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+                </div>
+                <button class="add-cart">Add To Cart</button>
+              </div>
+
+              
+              <div class="food-box " id="box_shop4" data-aos="fade-left">
+                <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+                <div style="opacity: 0;" class="box_Percentage">
+                    <div class="p1"></div>
+                </div>
+                <img src="Img/pic6.jpg" alt="" id="pic4" class="food-img">
+            
+                <h1>&#9733;&#9733;&#9733;&#9733;</h1>
+                <h2 class="food-title">Unisure aliqua repreh ex cupt qui elit officia</h2><br>
+                <h3 class="title_price4" style="display: none;"><span >$25.90 </span><h4 style="margin-left: -100px; display: none;" class="food-price">$18.03</h4></h3>
+                <div class="box_icon">
+                    <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                    <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+                </div>
+                <button class="add-cart">Add To Cart</button>
+              </div>
+
+
+              <div class="food-box " id="box_shop5" data-aos="fade-left">
+                <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+                <div style="opacity: 0;" class="box_Percentage">
+                    <div class="p1"></div>
+                </div>
+                <img src="Img/pic7.jpg" alt="" id="pic4" class="food-img">
+            
+                <h1>&#9733;&#9733;&#9733;&#9733;</h1>
+                <h2 class="food-title">Kenegy consectetur id ex nulla in adipisicing deserunt</h2><br>
+                <h3 class="title_price4" ><span >$25.90 </span><h4 style="margin-left: -10px; display: none;" class="food-price">$18.03</h4></h3>
+                <div class="box_icon">
+                    <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                    <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+                </div>
+                <button class="add-cart">Add To Cart</button>
+              </div>
+        </div>
+
+        <!-- Best Saller -->
+        <div class="Best_Saller">
+            <div class="featured">
+                <h1>Top Selling Products</h1>
+                <a class="text_title" href="">View More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="box_saller" data-aos="fade-left">
+                <div class="box_saller_pic">
+                   <img src="Img/saller-1.webp" alt="">  
+                </div>
+                <h1>Shopno BD</h1>
+            </div>
+
+            <div class="box_saller" data-aos="fade-left">
+                <div class="box_saller_pic">
+                   <img src="Img/saller-2.webp" alt="">  
+                </div>
+                <h1>Eecoms Shop</h1>
+            </div>
+
+            <div class="box_saller" data-aos="fade-left">
+                <div class="box_saller_pic">
+                   <img src="Img/saller-3.webp" alt="">  
+                </div>
+                <h1>Fusion X</h1>
+            </div>
+
+            <div class="box_saller" data-aos="fade-left">
+                <div class="box_saller_pic">
+                   <img src="Img/saller-4.webp" alt="">  
+                </div>
+                <h1>Rikayi Rox</h1>
+            </div>
+
+            <div class="box_saller" data-aos="fade-left">
+                <div class="box_saller_pic">
+                   <img src="Img/saller-5.webp" alt="">  
+                </div>
+                <h1  style="margin-left:55px;">Habbriyi</h1>
+            </div>
+
+            <div class="box_saller" data-aos="fade-left">
+                <div class="box_saller_pic">
+                   <img src="Img/saller-6.webp" alt="">  
+                </div>
+                <h1 style="margin-left: 60px;">Rayhans</h1>
+            </div>  
+
+        </div>
+
+         <!-- Gamer World -->
+         <div class="box_shop1"  data-aos="fade-up">
+            <div class="featured">
+               <h1>Popular Sales</h1>
+               <a href="">View More<i class="fa-solid fa-arrow-right"></i></a>
+           </div>
+           <div class="poster_item1 food-box">
+             <img src="Img/section-category-2.jpg" alt="">
+             <ul class="form1">
+               <li><a style="text-decoration: none;color: black;" href="">Electronics</a></li>
+               <li><a href="">Xioami</a></li>
+               <li><a href="">Apple</a></li>
+               <li><a href="">Google</a></li>
+               <li><a href="">Samsung</a></li>
+               <li><a style="text-decoration: none;color: black;" href="">Shop Now <i class="fa-solid fa-angle-right"></i></a></li>
+             </ul>
+           </div>
+ 
+           <div class="food-box " data-aos="fade-up">
+             <p style="opacity: 1;">Prodcuts Available <span>12</span></p>
+             <div style="opacity: 1;" class="box_Percentage">
+                 <div class="p1"></div>
+             </div>
+             <img src="Img/pic7.jpg" alt="" class="food-img">
+         
+             <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+             <h2 class="food-title">Canopoly duis voluptate dolor sunt sit adipisicing</h2>
+             <h3><span>$29.78</span><h4 class="food-price">$19.73</h4></h3>
+             <div class="box_icon">
+                 <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                 <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                 <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+             </div>
+             <button class="add-cart">Add To Cart</button>
+           </div>
+ 
+           <div class="food-box " data-aos="fade-up">
+             <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+             <div style="opacity: 0;" class="box_Percentage">
+                 <div class="p1"></div>
+             </div>
+             <img src="Img/pic4.jpg" alt="" class="food-img">
+         
+             <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+             <h2 class="food-title">Unisure aliqua repreh ex cupt qui elit officia</h2>
+             <h3><span>$30.90</span><h4 class="food-price">$23.53</h4></h3>
+             <div class="box_icon">
+                 <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                 <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                 <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+             </div>
+             <button class="add-cart">Add To Cart</button>
+           </div>
+ 
+           <div class="food-box a1" data-aos="fade-up">
+             <p style="opacity: 1;">Prodcuts Available <span>22</span></p>
+             <div style="opacity: 1;" class="box_Percentage">
+                 <div class="p1"></div>
+             </div>
+             <img src="Img/pic3.jpg" alt="" class="food-img">
+         
+             <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+             <h2 class="food-title">Kenegy consectetur id ex nulla in adipisicing</h2>
+             <h3><span>$25.90 </span><h4 class="food-price">$21.03</h4></h3>
+             <div class="box_icon">
+                 <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                 <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                 <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+             </div>
+             <button class="add-cart">Add To Cart</button>
+           </div>
+         </div><br><br><br><br><br>
+
+         <!-- ---------------------------------------- -->
+        <div class="box_ads3" data-aos="fade-right">
+            <img src="Img/ads-3.webp" alt="">
+       </div><br><br><br><br>
+
+          <!-- Gamer World -->
+          <div class="box_shop3"  data-aos="fade-up">
+            <div class="featured">
+               <h1>New Arrivals</h1>
+               <a href="">View More<i class="fa-solid fa-arrow-right"></i></a>
+           </div>
+          
+           <div class="food-box a1" data-aos="fade-up">
+            <p style="opacity: 1;">Prodcuts Available <span>14</span></p>
+            <div style="opacity: 1;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic1.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Xoggle aute et pariatur adipisicing nostrud et</h2>
+            <h3><span>$29.78</span><h4 class="food-price">$19.73</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box " data-aos="fade-up">
+            <p style="opacity: 0;">Prodcuts Available <span>12</span></p>
+            <div style="opacity: 0;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic2.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Geeky ipsum esse repreh est consequat</h2>
+            <h3><span>$29.78</span><h4 class="food-price">$19.73</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box " data-aos="fade-up">
+            <p style="opacity: 1;">Prodcuts Available <span>17</span></p>
+            <div style="opacity: 1;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic3.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Conjurica ea magna eiusmod esse cupt anim</h2>
+            <h3><span>$29.78</span><h4 class="food-price">$19.73</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box a1" data-aos="fade-up">
+            <p style="opacity: 0;">Prodcuts Available <span>12</span></p>
+            <div style="opacity: 0;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic4.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Senmei ipsum dolore eiusmod dolor officia do</h2>
+            <h3><span>$29.78</span><h4 class="food-price">$19.73</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box a1" data-aos="fade-up">
+            <p style="opacity: 1;">Prodcuts Available <span>15</span></p>
+            <div style="opacity: 1;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic6.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Canopoly duis voluptate dolor sunt sit adipisicing</h2>
+            <h3><span>$29.78</span><h4 class="food-price">$19.73</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box a1" data-aos="fade-up">
+            <p style="opacity: 0;">Prodcuts Available <span>12</span></p>
+            <div style="opacity: 0;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic7.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Unisure aliqua repreh ex cupt qui elit officia</h2>
+            <h3><span>$29.78</span><h4 class="food-price">$19.73</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box a1" data-aos="fade-up">
+            <p style="opacity: 0;">Prodcuts Available <span>12</span></p>
+            <div style="opacity: 0;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic8.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Kenegy consectetur id ex nulla in adipisicing</h2>
+            <h3><span>$1800</span><h4 class="food-price">$1500</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box " data-aos="fade-up">
+            <p style="opacity: 1;">Prodcuts Available <span>12</span></p>
+            <div style="opacity: 1;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic9.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Bizmatic consequat enim quis sit et est eiusmod</h2>
+            <h3><span>$1650</span><h4 class="food-price">$1300</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+
+          <div class="food-box " data-aos="fade-up">
+            <p style="opacity: 0;">Prodcuts Available <span>12</span></p>
+            <div style="opacity: 0;" class="box_Percentage">
+                <div class="p1"></div>
+            </div>
+            <img src="Img/pic10.jpg" alt="" class="food-img">
+        
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h2 class="food-title">Anarco consectetur magna nostrud commodo</h2>
+            <h3><span>$2100</span><h4 class="food-price">$1920</h4></h3>
+            <div class="box_icon">
+                <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+            </div>
+            <button class="add-cart">Add To Cart</button>
+          </div>
+ 
+           
+           <div class="food-box " data-aos="fade-up">
+             <p style="opacity: 1;">Prodcuts Available <span>12</span></p>
+             <div style="opacity: 1;" class="box_Percentage">
+                 <div class="p1"></div>
+             </div>
+             <img src="Img/pic11.jpg" alt="" class="food-img">
+         
+             <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+             <h2 class="food-title">Plasto cillum ad minim elit fugiat esse dolore</h2>
+             <h3><span>$1230</span><h4 class="food-price">$870</h4></h3>
+             <div class="box_icon">
+                 <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                 <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                 <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+             </div>
+             <button class="add-cart">Add To Cart</button>
+           </div>
+ 
+           <div class="food-box " data-aos="fade-up">
+             <p style="opacity: 0;">Prodcuts Available <span>20</span></p>
+             <div style="opacity: 0;" class="box_Percentage">
+                 <div class="p1"></div>
+             </div>
+             <img src="Img/pic12.jpg" alt="" class="food-img">
+         
+             <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+             <h2 class="food-title">Conjurica ea magna eiusmod esse cupt anim</h2>
+             <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+             <div class="box_icon">
+                 <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                 <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                 <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+             </div>
+             <button class="add-cart">Add To Cart</button>
+           </div>
+ 
+           <div class="food-box " data-aos="fade-up">
+             <p style="opacity: 1;">Prodcuts Available <span>22</span></p>
+             <div style="opacity: 1;" class="box_Percentage">
+                 <div class="p1"></div>
+             </div>
+             <img src="Img/pic13.jpg" alt="" class="food-img">
+         
+             <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+             <h2 class="food-title">Empirica deserunt ad quis labore labore eu</h2>
+             <h3><span>$200.00</span><h4 class="food-price">$170.00</h4></h3>
+             <div class="box_icon">
+                 <a class="b1" href=""><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                 <a class="b1"  href=""><i class="fa-regular fa-heart"></i></a>
+                 <a class="b1"  href=""><i class="fa-solid fa-rotate"></i></a>
+             </div>
+             <button class="add-cart">Add To Cart</button>
+           </div>
+          
+           
+         </div>
+        <div class="box_ads4">
+            <img src="Img/ads-4 (1).webp" alt="">
+        </div><br><br><br><br><br>
+
+        <!-- popular sales -->
+        <div class="box_shop1 b1"  data-aos="fade-up">
+            <div class="featured">
+               <h1>Popular Sales</h1>
+               <a href="">View More<i class="fa-solid fa-arrow-right"></i></a>
+           </div>
+
+           <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic1.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$55.87</span><h4 class="food-price">$43.45</h4></h3>
+           </div>
+
+            <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic2.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+           </div>
+
+           <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic3.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+            </div>
+
+            <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic4.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+           </div>
+
+           <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic5.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+            </div>
+
+            <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic6.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+           </div>
+
+           <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic7.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+            </div>
+
+            <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic8.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$900</span><h4 class="food-price">$650</h4></h3>
+           </div>
+
+           <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic9.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+            </div>
+
+            <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic10.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$32.76</span><h4 class="food-price">$27.88</h4></h3>
+           </div>
+
+           <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic11.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$28.90</span><h4 class="food-price">$21.87</h4></h3>
+            </div>
+
+            <div class="box_item1" data-aos="fade-up">
+                <img src="Img/pic12.jpg" alt="">
+                <h1>Xoggle aute et pariatur....</h1>
+                <h3><span>$1100</span><h4 class="food-price">$900</h4></h3>
+           </div>
+
+        </div>
+    </div><br><br>
+
+    <div class="box_footer1">
+        <div class="box_footer2">
+            <div class="box_email">
+                <h1>Get <span style="color: rgb(255, 187, 56);">20%</span> Off Discount Coupon</h1>
+                <h2>by Subscribe our Newsletter</h2>
+                <div class="box_search_email">
+                    <input class="search_email" type="text" placeholder="EMAIL ADDRESS">
+                    <button class="get_cp">Get Coupon</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="footer_img">
+        <div class="small_img">
+            <img src="Img/logo_shop-removebg-preview.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer_big">
+        <div class="footer_small">
+            <div class="about">
+                <h1>About Us</h1>
+                <h2 style="text-decoration: none;">We know there are a lot of threa developers our but we pride into a firm in the industry.</h2>
+            </div>
+
+            <div class="about">
+                <h1>Feature</h1>
+                <h2>About Us</h2><br><br>
+                <h2>Terms Condition</h2><br><br>
+                <h2>Best Products</h2>
+            </div>
+
+            <div class="about">
+                <h1>General Links</h1>
+                <h2>About Us</h2><br><br>
+                <h2>Terms Condition</h2><br><br>
+                <h2>Best Products</h2>
+            </div>
+
+            <div class="about">
+                <h1>Helpful</h1>
+                <h2>Flash Sale</h2><br><br>
+                <h2>FAQ</h2><br><br>
+                <h2>Support</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="box_last">
+        <div class="small_last">
+            <h1>©2024 bunly hour All rights reserved</h1>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
+    <script src="javascript.js"></script>
+</body>
+</html>
